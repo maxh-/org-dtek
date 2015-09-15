@@ -1,0 +1,33 @@
+#+OPTIONS: TeX:t LaTeX:t toc:nil
+#+LaTeX_CLASS: dtekprotokoll
+#+LATEX_HEADER: \verksamhetsar{2015-2016}
+#+LATEX_HEADER: \motesnummer{00}
+#+LATEX_HEADER: \start{12.00}
+#+LATEX_HEADER: \plats{Styretrummet}
+#+TITLE: Protokoll Styrelsemöte
+#+DATE: 2015-01-01
+#+BEGIN_LATEX
+\makeheadfoot
+\begin{funktionarer}
+  \funktionar[kommando]{titel}{Namn Namnsson}{cid}
+\end{funktionarer}
+\newcommand{\just}{Namn Namnsson}
+#+END_LATEX
+
+* Rubrik!
+  Text
+
+** Underrubrik
+   Mera text
+
+*** Ett beslut som tagits
+
+    * En lista
+    * Mer lista
+
+* Rubrik nummer 2
+  Text till rubrik 2
+
+#+BEGIN_LATEX
+\makesigns{\sekr}{\ordf}[\just]
+#+END_LATEX
