@@ -2,7 +2,10 @@
 (setq org-latex-with-hyperref nil)
 (setq org-export-latex-listings t)
 (setq org-latex-pdf-process
-      '("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
+      '("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+	"xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
+
+
 (custom-set-variables
  '(latex-run-command "xelatex")
  '(pdf-latex-command "xelatex")
