@@ -20,3 +20,10 @@
           ("\\subsection{%s}" . "\\subsection*{%s}")
           ("\\beslut{%s}" . "\\beslut*{%s}")
 	  ))
+
+(add-to-list 'org-latex-classes
+        '("dtek"
+          "\\documentclass{dtek}
+          [NO-DEFAULT-PACKAGES]
+          [NO-PACKAGES]"
+          ))
